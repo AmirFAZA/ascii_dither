@@ -5,6 +5,10 @@ JPEG → JPEG, собранный из ASCII-символов 16 стандар�
  ascii_dither.py — JPEG → JPEG, собранный из ASCII-символов 16 стандартных
                    ANSI-цветов, с контурной обводкой объектов.
 
+<p align="center">
+  <img src="example.jpg" width="600" alt="">
+</p>
+
 
 ЧТО ДЕЛАЕТ ПРОГРАММА
 --------------------
