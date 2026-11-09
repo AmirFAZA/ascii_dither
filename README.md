@@ -31,9 +31,13 @@ JPEG → JPEG, собранный из ASCII-символов 16 стандар�
 -----------
     pip install pillow
 
-ЗАПУСК (общий вид)
+ЗАПУСК Python
 ------------------
     python ascii_dither.py <input> <output> [опции]
+
+ЗАПУСК .exe
+------------------
+    .\ascii_dither.exe <input> <output> [options]
 
 ПРИМЕРЫ
 -------
@@ -44,13 +48,13 @@ JPEG → JPEG, собранный из ASCII-символов 16 стандар�
     python ascii_dither.py photo.jpg out.jpg -f 20 --scale 2 --bg white
 
     # детальная прорисовка: мелкие символы + максимум контуров
-    python ascii_dither.py photo.jpg out.jpg -f 10 --scale 3 -e 0.08 -j 0.5
+    .\ascii_dither.exe photo.jpg out.jpg -f 10 --scale 3 -e 0.08 -j 0.5
 
     # только заливка, без обводки
     python ascii_dither.py photo.jpg out.jpg --no-edges
 
     # фиксированное «зерно» — один и тот же результат при каждом запуске
-    python ascii_dither.py photo.jpg out.jpg -s 42
+    .\ascii_dither.exe photo.jpg out.jpg -s 42
 
 ВСЕ ФЛАГИ
 ---------
