@@ -1,0 +1,39 @@
+# ---- build output -------------------------------------------------
+/dist/
+/build/
+/bin/
+*.exe
+*.dll
+*.o
+*.obj
+*.lib
+*.a
+*.so
+*.dylib
+*.res
+*.exp
+*.ilk
+*.pdb
+*.map
+
+# ---- python -------------------------------------------------------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ---- editors / OS -------------------------------------------------
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ---- local test images (docs/ is kept) ----------------------------
+/*.jpg
+/*.jpeg
+/*.png
+/*.bmp
+/*.tif
+/*.tiff
